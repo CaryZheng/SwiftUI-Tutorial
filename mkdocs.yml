@@ -1,0 +1,35 @@
+site_name: SwiftUI 速成指南
+site_description: 'SwiftUI 速成指南'
+site_author: 'Cary Zheng'
+site_url: 'https://github.com/CaryZheng/SwiftUI-Tutorial'
+
+repo_name: 'CaryZheng/SwiftUI-Tutorial'
+repo_url: 'https://github.com/CaryZheng/SwiftUI-Tutorial'
+
+copyright: 'Copyright &copy; 2020 CaryZheng'
+
+theme:
+  name: 'material'
+  language: 'zh'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  favicon: 'favicon.ico'
+  logo: 'logo.png'
+
+extra:
+  social:
+    - type: globe
+      link: https://www.carymic.com
+    - type: github-alt
+      link: https://github.com/CaryZheng
+
+markdown_extensions:
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+
+nav:
+- 序: index.md
+- Hello World: hello_world.md
