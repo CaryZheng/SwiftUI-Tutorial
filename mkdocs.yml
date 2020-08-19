@@ -17,6 +17,10 @@ theme:
   favicon: 'favicon.ico'
   logo: 'logo.png'
 
+google_analytics:
+  - 'UA-113865151-4'
+  - 'auto'
+
 extra:
   social:
     - type: globe
