@@ -1,17 +1,31 @@
-# Welcome to MkDocs
+# 序
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+`SwiftUI` 是 `Apple` 推出的新一代 `UI` 框架，可适用于 `Apple` 系平台。
 
-## Commands
+本教程主要是针对 `SwiftUI` 的速成指南。（注：逐步更新中）
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+## Contact
 
-## Project layout
+Swift 技术博客：[www.carymic.com](https://www.carymic.com)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+微信公众号：SwiftMic
+
+![swiftmic_wechat_logo](img/swiftmic_wechat_logo.png)
+
+联系作者：CaryZhengMy#gmail.com （# 替换成 @）
+
+## 代码
+
+教程示例代码：[Examples](https://github.com/CaryZheng/SwiftUI-Tutorial/tree/master/code)
+
+## 声明
+
+本教程版权归作者 [CaryZheng](https://github.com/CaryZheng) 所有，未经作者许可，不得用于商业用途。
+
+## 捐赠
+
+如果此教程对你有所帮助，可以赠送作者一杯 “咖啡”。
+
+* 微信支付
+
+![donate_wechat](img/donate_wechat.png)
