@@ -22,6 +22,39 @@
 
 ## 项目结构
 
+```shell
+.
+├── SwiftUIFirstDemo
+│   ├── SwiftUIFirstDemoApp.swift
+│   ├── ContentView.swift
+│   ├── Assets.xcassets
+│   └── Info.plist
+├── Preview Content
+│   └── Preview Assets.xcassets
+└── Products
+```
+
+### SwiftUIFirstDemoApp.swift
+
+```swift
+import SwiftUI
+
+@main
+struct SwiftUIFirstDemoApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
+```
+
+#### @main
+
+使用 `@main` 注解的 `class` 或 `struct` 将作为应用程序的主入口。
+
+#### App
+
 TODO
 
 ## 示例代码
