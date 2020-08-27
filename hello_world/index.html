@@ -310,6 +310,53 @@
     项目结构
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#swiftuifirstdemoappswift" class="md-nav__link">
+    SwiftUIFirstDemoApp.swift
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#main" class="md-nav__link">
+    @main
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#app" class="md-nav__link">
+    App
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scene" class="md-nav__link">
+    Scene
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contentviewswift" class="md-nav__link">
+    ContentView.swift
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -369,6 +416,53 @@
     项目结构
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#swiftuifirstdemoappswift" class="md-nav__link">
+    SwiftUIFirstDemoApp.swift
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#main" class="md-nav__link">
+    @main
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#app" class="md-nav__link">
+    App
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scene" class="md-nav__link">
+    Scene
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contentviewswift" class="md-nav__link">
+    ContentView.swift
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -401,7 +495,7 @@
 <p>本章教程教将带你创建第一个 <code>SwiftUI</code> 项目。</p>
 <h2 id="_1">开发环境<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Xcode 12 Beta 5</li>
+<li>Xcode 12 Beta 6</li>
 </ul>
 <h2 id="_2">创建新项目<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <p>打开 <code>Xcode</code>，选择菜单 <code>File</code> -&gt; <code>New</code> -&gt; <code>Project...</code>。</p>
@@ -411,7 +505,52 @@
 <p>按上述步骤即可成功创建第一个 <code>SwiftUI</code> 项目。</p>
 <p><img alt="xcode_new_project_3" src="../img/xcode_new_project_3.jpeg" /></p>
 <h2 id="_3">项目结构<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
-<p>TODO</p>
+<div class="codehilite"><pre><span></span>.
+├── SwiftUIFirstDemo
+│   ├── SwiftUIFirstDemoApp.swift
+│   ├── ContentView.swift
+│   ├── Assets.xcassets
+│   └── Info.plist
+├── Preview Content
+│   └── Preview Assets.xcassets
+└── Products
+</pre></div>
+
+
+<h3 id="swiftuifirstdemoappswift">SwiftUIFirstDemoApp.swift<a class="headerlink" href="#swiftuifirstdemoappswift" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><span class="kd">import</span> <span class="nc">SwiftUI</span>
+
+<span class="p">@</span><span class="n">main</span>
+<span class="kd">struct</span> <span class="nc">SwiftUIFirstDemoApp</span><span class="p">:</span> <span class="n">App</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nv">body</span><span class="p">:</span> <span class="n">some</span> <span class="n">Scene</span> <span class="p">{</span>
+        <span class="n">WindowGroup</span> <span class="p">{</span>
+            <span class="n">ContentView</span><span class="p">()</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<h4 id="main">@main<a class="headerlink" href="#main" title="Permanent link">&para;</a></h4>
+<p>使用 <code>@main</code> 注解的 <code>class</code> 或 <code>struct</code> 将作为应用程序的主入口。</p>
+<h4 id="app">App<a class="headerlink" href="#app" title="Permanent link">&para;</a></h4>
+<p><code>App</code> 协议中定义了 <code>main()</code> 方法，可配合 <code>@main</code> 注解使用。</p>
+<h4 id="scene">Scene<a class="headerlink" href="#scene" title="Permanent link">&para;</a></h4>
+<p><code>body</code> 遵循 <code>Scene</code> 协议，每个 <code>Scene</code> 包含 view 层级中的 root view，并且生命周期由系统来控制。</p>
+<h3 id="contentviewswift">ContentView.swift<a class="headerlink" href="#contentviewswift" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><span class="kd">import</span> <span class="nc">SwiftUI</span>
+
+<span class="kd">struct</span> <span class="nc">ContentView</span><span class="p">:</span> <span class="n">View</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nv">body</span><span class="p">:</span> <span class="n">some</span> <span class="n">View</span> <span class="p">{</span>
+        <span class="n">Text</span><span class="p">(</span><span class="s">&quot;Hello, world!&quot;</span><span class="p">)</span>
+            <span class="p">.</span><span class="n">padding</span><span class="p">()</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<p><code>ContentView</code> 实现了 <code>View</code> 协议，并放置了一个 <code>Text</code> 控件，运行此示例代码将在界面上输出一串文本 <code>Hello, world!</code> 。</p>
+<p><img alt="hello_world" src="../img/hello_world.png" /></p>
 <h2 id="_4">示例代码<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <p>可参考：<a href="https://github.com/CaryZheng/SwiftUI-Tutorial/tree/master/code/SwiftUIFirstDemo">SwiftUIFirstDemo</a></p>
                 
