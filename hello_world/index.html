@@ -546,10 +546,17 @@
             <span class="p">.</span><span class="n">padding</span><span class="p">()</span>
     <span class="p">}</span>
 <span class="p">}</span>
+
+<span class="kd">struct</span> <span class="nc">ContentView_Previews</span><span class="p">:</span> <span class="n">PreviewProvider</span> <span class="p">{</span>
+    <span class="kd">static</span> <span class="kd">var</span> <span class="nv">previews</span><span class="p">:</span> <span class="n">some</span> <span class="n">View</span> <span class="p">{</span>
+        <span class="n">ContentView</span><span class="p">()</span>
+    <span class="p">}</span>
+<span class="p">}</span>
 </pre></div>
 
 
 <p><code>ContentView</code> 实现了 <code>View</code> 协议，并放置了一个 <code>Text</code> 控件，运行此示例代码将在界面上输出一串文本 <code>Hello, world!</code> 。</p>
+<p>另外，<code>ContentView_Previews</code> 用于预览使用，可在不运行完整程序的情况下查看当前 <code>View</code> 的实际效果，便于调试。</p>
 <p><img alt="hello_world" src="../img/hello_world.png" /></p>
 <h2 id="_4">示例代码<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <p>可参考：<a href="https://github.com/CaryZheng/SwiftUI-Tutorial/tree/master/code/SwiftUIFirstDemo">SwiftUIFirstDemo</a></p>
