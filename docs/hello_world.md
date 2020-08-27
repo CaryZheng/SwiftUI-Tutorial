@@ -63,6 +63,8 @@ struct SwiftUIFirstDemoApp: App {
 
 ### ContentView.swift
 
+#### 实现
+
 ```swift
 import SwiftUI
 
@@ -72,7 +74,15 @@ struct ContentView: View {
             .padding()
     }
 }
+```
 
+`ContentView` 实现了 `View` 协议，并放置了一个 `Text` 控件，运行此示例代码将在界面上输出一串文本 `Hello, world!` 。
+
+![hello_world](img/hello_world.png)
+
+#### 预览
+
+```swift
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
@@ -80,11 +90,7 @@ struct ContentView_Previews: PreviewProvider {
 }
 ```
 
-`ContentView` 实现了 `View` 协议，并放置了一个 `Text` 控件，运行此示例代码将在界面上输出一串文本 `Hello, world!` 。
-
-另外，`ContentView_Previews` 用于预览使用，可在不运行完整程序的情况下查看当前 `View` 的实际效果，便于调试。
-
-![hello_world](img/hello_world.png)
+`ContentView_Previews` 用于预览使用，可在不运行完整程序的情况下查看当前 `View` 的实际效果，便于调试。
 
 ## 示例代码
 
