@@ -4,7 +4,7 @@
 
 ## 开发环境
 
-* Xcode 12 Beta 5
+* Xcode 12 Beta 6
 
 ## 创建新项目
 
@@ -55,7 +55,28 @@ struct SwiftUIFirstDemoApp: App {
 
 #### App
 
-TODO
+`App` 协议中定义了 `main()` 方法，可配合 `@main` 注解使用。
+
+#### Scene
+
+`body` 遵循 `Scene` 协议，每个 `Scene` 包含 view 层级中的 root view，并且生命周期由系统来控制。
+
+### ContentView.swift
+
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        Text("Hello, world!")
+            .padding()
+    }
+}
+```
+
+`ContentView` 实现了 `View` 协议，并放置了一个 `Text` 控件，运行此示例代码将在界面上输出一串文本 `Hello, world!` 。
+
+![hello_world](img/hello_world.png)
 
 ## 示例代码
 
