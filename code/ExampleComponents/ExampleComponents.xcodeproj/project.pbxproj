@@ -11,7 +11,7 @@
 		4AF2FEB524F8D9080011D698 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF2FEB424F8D9080011D698 /* ContentView.swift */; };
 		4AF2FEB724F8D90C0011D698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF2FEB624F8D90C0011D698 /* Assets.xcassets */; };
 		4AF2FEBA24F8D90C0011D698 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF2FEB924F8D90C0011D698 /* Preview Assets.xcassets */; };
-		4AF2FEC324F8DD180011D698 /* TextViewPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF2FEC224F8DD180011D698 /* TextViewPageView.swift */; };
+		4AF2FEC324F8DD180011D698 /* TextPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF2FEC224F8DD180011D698 /* TextPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +21,7 @@
 		4AF2FEB624F8D90C0011D698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AF2FEB924F8D90C0011D698 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4AF2FEBB24F8D90C0011D698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4AF2FEC224F8DD180011D698 /* TextViewPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewPageView.swift; sourceTree = "<group>"; };
+		4AF2FEC224F8DD180011D698 /* TextPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 		4AF2FEC124F8DCF40011D698 /* PageView */ = {
 			isa = PBXGroup;
 			children = (
-				4AF2FEC224F8DD180011D698 /* TextViewPageView.swift */,
+				4AF2FEC224F8DD180011D698 /* TextPageView.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -150,7 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AF2FEB524F8D9080011D698 /* ContentView.swift in Sources */,
-				4AF2FEC324F8DD180011D698 /* TextViewPageView.swift in Sources */,
+				4AF2FEC324F8DD180011D698 /* TextPageView.swift in Sources */,
 				4AF2FEB324F8D9080011D698 /* ExampleComponentsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

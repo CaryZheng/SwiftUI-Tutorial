@@ -13,9 +13,9 @@ struct ContentView: View {
         NavigationView {
             List {
                 NavigationLink(
-                    destination: TextViewPageView(),
+                    destination: TextPageView(),
                     label: {
-                        Text("TextView")
+                        Text("Text")
                     }).padding()
             }.navigationBarTitle("SwiftUI组件", displayMode: .inline)
         }
