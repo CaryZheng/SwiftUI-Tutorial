@@ -37,3 +37,5 @@ markdown_extensions:
 nav:
 - 序: index.md
 - Hello World: hello_world.md
+- 组件:
+  - TextView: component/text_view.md
