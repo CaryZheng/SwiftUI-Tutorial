@@ -4,43 +4,42 @@
 
 ## 开发环境
 
-* Xcode 12 Beta 6
+* Xcode 13.2
+* Swift 5.5.2
 
 ## 创建新项目
 
 打开 `Xcode`，选择菜单 `File` -> `New` -> `Project...`。
 
-![xcode_new_project_1](img/xcode_new_project_1.jpeg)
+![xcode_new_project_1](img/xcode_new_project_1.png)
 
-选择 `App` 类型，接下来设置好项目名称（示例名称为 `SwiftUIFirstDemo`）。
+选择 `App` 类型，接下来设置好项目名称（示例名称为 `HelloWorldDemo`）。
 
-![xcode_new_project_2](img/xcode_new_project_2.jpeg)
+![xcode_new_project_2](img/xcode_new_project_2.png)
 
 按上述步骤即可成功创建第一个 `SwiftUI` 项目。
 
-![xcode_new_project_3](img/xcode_new_project_3.jpeg)
+![xcode_new_project_3](img/xcode_new_project_3.png)
 
 ## 项目结构
 
 ```shell
 .
-├── SwiftUIFirstDemo
-│   ├── SwiftUIFirstDemoApp.swift
+├── HelloWorldDemo
+│   ├── HelloWorldDemoApp.swift
 │   ├── ContentView.swift
-│   ├── Assets.xcassets
-│   └── Info.plist
-├── Preview Content
-│   └── Preview Assets.xcassets
-└── Products
+│   └── Assets.xcassets
+└── Preview Content
+    └── Preview Assets.xcassets
 ```
 
-### SwiftUIFirstDemoApp.swift
+### HelloWorldDemoApp.swift
 
 ```swift
 import SwiftUI
 
 @main
-struct SwiftUIFirstDemoApp: App {
+struct HelloWorldDemoApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
@@ -94,4 +93,4 @@ struct ContentView_Previews: PreviewProvider {
 
 ## 示例代码
 
-可参考：[SwiftUIFirstDemo](https://github.com/CaryZheng/SwiftUI-Tutorial/tree/master/code/SwiftUIFirstDemo)
+可参考：[HelloWorldDemo](https://github.com/CaryZheng/SwiftUI-Tutorial/tree/master/code/HelloWorldDemo)
