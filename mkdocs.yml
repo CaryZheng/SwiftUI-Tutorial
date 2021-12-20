@@ -8,14 +8,14 @@ repo_url: 'https://github.com/CaryZheng/SwiftUI-Tutorial'
 
 copyright: 'Copyright &copy; 2020 CaryZheng'
 
-theme:
-  name: 'material'
-  language: 'zh'
-  palette:
-    primary: 'indigo'
-    accent: 'indigo'
-  favicon: 'favicon.ico'
-  logo: 'logo.png'
+# theme:
+#   name: 'material'
+#   language: 'zh'
+#   palette:
+#     primary: 'indigo'
+#     accent: 'indigo'
+#   favicon: 'favicon.ico'
+#   logo: 'logo.png'
 
 google_analytics:
   - 'UA-113865151-4'

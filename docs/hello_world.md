@@ -91,6 +91,12 @@ struct ContentView_Previews: PreviewProvider {
 
 `ContentView_Previews` 用于预览使用，可在不运行完整程序的情况下查看当前 `View` 的实际效果，便于调试。
 
+### info.plist
+
+如今在左侧的工程目录中不直接显示 `info.plist` 文件了，目前已迁移到 `Targets -> info` 中了。
+
+![xcode_new_project_3](img/xcode_new_project_4.png)
+
 ## 示例代码
 
 可参考：[HelloWorldDemo](https://github.com/CaryZheng/SwiftUI-Tutorial/tree/master/code/HelloWorldDemo)
