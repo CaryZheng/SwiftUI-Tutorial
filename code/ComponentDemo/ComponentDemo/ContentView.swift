@@ -27,6 +27,13 @@ struct ContentView: View {
                             Text("Button")
                         }
                     ).padding()
+                    
+                    NavigationLink(
+                        destination: ImagePageView(),
+                        label: {
+                            Text("Image")
+                        }
+                    ).padding()
                 }
             }
         }

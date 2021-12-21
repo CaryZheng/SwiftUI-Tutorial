@@ -39,7 +39,7 @@ struct ButtonPageView: View {
             Button(action: onBtnClicked) {
                 HStack {
                     Image(systemName: "magnifyingglass")
-                    Text("search")
+                    Text("Button4")
                 }
             }
             

@@ -13,6 +13,7 @@
 		4AD40F4B2770B2F0007DC606 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD40F4A2770B2F0007DC606 /* Preview Assets.xcassets */; };
 		4AD40F542770B3E9007DC606 /* TextPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD40F532770B3E9007DC606 /* TextPageView.swift */; };
 		4AD40F582770CB8B007DC606 /* ButtonPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD40F572770CB8B007DC606 /* ButtonPageView.swift */; };
+		4ADCF1F5277182CB00EF0090 /* ImagePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCF1F4277182CB00EF0090 /* ImagePageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		4AD40F4A2770B2F0007DC606 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4AD40F532770B3E9007DC606 /* TextPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPageView.swift; sourceTree = "<group>"; };
 		4AD40F572770CB8B007DC606 /* ButtonPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPageView.swift; sourceTree = "<group>"; };
+		4ADCF1F4277182CB00EF0090 /* ImagePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				4AD40F532770B3E9007DC606 /* TextPageView.swift */,
 				4AD40F572770CB8B007DC606 /* ButtonPageView.swift */,
+				4ADCF1F4277182CB00EF0090 /* ImagePageView.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				4AD40F462770B2EF007DC606 /* ContentView.swift in Sources */,
 				4AD40F542770B3E9007DC606 /* TextPageView.swift in Sources */,
 				4AD40F442770B2EF007DC606 /* ComponentDemoApp.swift in Sources */,
+				4ADCF1F5277182CB00EF0090 /* ImagePageView.swift in Sources */,
 				4AD40F582770CB8B007DC606 /* ButtonPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
