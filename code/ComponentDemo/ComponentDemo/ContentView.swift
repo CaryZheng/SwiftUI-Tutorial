@@ -18,22 +18,42 @@ struct ContentView: View {
                         label: {
                             Text("Text")
                         }
-                    ).padding()
-                    .navigationBarTitle("SwiftUI组件")
+                    ).navigationBarTitle("SwiftUI组件")
                     
                     NavigationLink(
                         destination: ButtonPageView(),
                         label: {
                             Text("Button")
                         }
-                    ).padding()
+                    )
                     
                     NavigationLink(
                         destination: ImagePageView(),
                         label: {
                             Text("Image")
                         }
-                    ).padding()
+                    )
+                    
+                    NavigationLink(
+                        destination: TogglePageView(),
+                        label: {
+                            Text("Toggle")
+                        }
+                    )
+                    
+                    NavigationLink(
+                        destination: TextFieldPageView(),
+                        label: {
+                            Text("TextField")
+                        }
+                    )
+                    
+                    NavigationLink(
+                        destination: TextEditorPageView(),
+                        label: {
+                            Text("TextEditor")
+                        }
+                    )
                 }
             }
         }

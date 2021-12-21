@@ -27,7 +27,7 @@ struct ImagePageView: View {
             Image("test")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 100, height: 80)
+                .frame(width: 100)
             
         }.navigationBarTitle("Image", displayMode: .inline)
     }

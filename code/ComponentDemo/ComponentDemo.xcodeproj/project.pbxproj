@@ -14,6 +14,9 @@
 		4AD40F542770B3E9007DC606 /* TextPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD40F532770B3E9007DC606 /* TextPageView.swift */; };
 		4AD40F582770CB8B007DC606 /* ButtonPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD40F572770CB8B007DC606 /* ButtonPageView.swift */; };
 		4ADCF1F5277182CB00EF0090 /* ImagePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCF1F4277182CB00EF0090 /* ImagePageView.swift */; };
+		4ADCF1F72771A56000EF0090 /* TogglePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCF1F62771A56000EF0090 /* TogglePageView.swift */; };
+		4ADCF1F92771B75000EF0090 /* TextFieldPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCF1F82771B75000EF0090 /* TextFieldPageView.swift */; };
+		4ADCF1FB2771BDD100EF0090 /* TextEditorPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCF1FA2771BDD100EF0090 /* TextEditorPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		4AD40F532770B3E9007DC606 /* TextPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPageView.swift; sourceTree = "<group>"; };
 		4AD40F572770CB8B007DC606 /* ButtonPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPageView.swift; sourceTree = "<group>"; };
 		4ADCF1F4277182CB00EF0090 /* ImagePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePageView.swift; sourceTree = "<group>"; };
+		4ADCF1F62771A56000EF0090 /* TogglePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TogglePageView.swift; sourceTree = "<group>"; };
+		4ADCF1F82771B75000EF0090 /* TextFieldPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldPageView.swift; sourceTree = "<group>"; };
+		4ADCF1FA2771BDD100EF0090 /* TextEditorPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				4AD40F532770B3E9007DC606 /* TextPageView.swift */,
 				4AD40F572770CB8B007DC606 /* ButtonPageView.swift */,
 				4ADCF1F4277182CB00EF0090 /* ImagePageView.swift */,
+				4ADCF1F62771A56000EF0090 /* TogglePageView.swift */,
+				4ADCF1F82771B75000EF0090 /* TextFieldPageView.swift */,
+				4ADCF1FA2771BDD100EF0090 /* TextEditorPageView.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -157,8 +166,11 @@
 				4AD40F462770B2EF007DC606 /* ContentView.swift in Sources */,
 				4AD40F542770B3E9007DC606 /* TextPageView.swift in Sources */,
 				4AD40F442770B2EF007DC606 /* ComponentDemoApp.swift in Sources */,
+				4ADCF1F92771B75000EF0090 /* TextFieldPageView.swift in Sources */,
 				4ADCF1F5277182CB00EF0090 /* ImagePageView.swift in Sources */,
 				4AD40F582770CB8B007DC606 /* ButtonPageView.swift in Sources */,
+				4ADCF1F72771A56000EF0090 /* TogglePageView.swift in Sources */,
+				4ADCF1FB2771BDD100EF0090 /* TextEditorPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
